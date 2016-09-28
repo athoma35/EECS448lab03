@@ -1,0 +1,47 @@
+body
+{
+	background-image: url("background.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+p
+{
+	color: red;
+	font-size: 20pt;
+}
+
+p.Title
+{
+	color: red;
+	background-color: black;
+	font-size: 36pt;
+	text-align: center;
+}
+
+img
+{
+	opacity: 1.0;
+	display: block;
+	margin: auto;
+	width: 25%;
+	height: 50%;
+}
+
+img:hover
+{
+	opacity: 0;
+}
+
+iframe
+{
+	display: block;
+	margin: auto;
+}
+
+a
+{
+	color: red;
+	font-size: 20pt;
+}
